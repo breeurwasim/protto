@@ -1,0 +1,181 @@
+[18-Aug-2018 12:42:01 Etc/GMT] PHP Warning:  require_once(/home/jtflyjgn/public_html/beta/demo/custom/razorpay/libs/Requests-1.6.1/library/Requests.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/Razorpay.php on line 6
+[18-Aug-2018 12:42:01 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required '/home/jtflyjgn/public_html/beta/demo/custom/razorpay/libs/Requests-1.6.1/library/Requests.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/Razorpay.php on line 6
+[18-Aug-2018 12:42:16 Etc/GMT] PHP Warning:  require_once(/home/jtflyjgn/public_html/beta/demo/custom/razorpay/libs/Requests-1.6.1/library/Requests.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/Razorpay.php on line 6
+[18-Aug-2018 12:42:16 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required '/home/jtflyjgn/public_html/beta/demo/custom/razorpay/libs/Requests-1.6.1/library/Requests.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/Razorpay.php on line 6
+[18-Aug-2018 13:21:17 Etc/GMT] PHP Warning:  require_once(/home/jtflyjgn/public_html/beta/demo/custom/razorpay/libs/Requests-1.6.1/library/Requests.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/Razorpay.php on line 6
+[18-Aug-2018 13:21:17 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required '/home/jtflyjgn/public_html/beta/demo/custom/razorpay/libs/Requests-1.6.1/library/Requests.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/Razorpay.php on line 6
+[18-Aug-2018 13:21:34 Etc/GMT] PHP Warning:  require_once(/home/jtflyjgn/public_html/beta/demo/custom/razorpay/libs/Requests-1.6.1/library/Requests.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/Razorpay.php on line 6
+[18-Aug-2018 13:21:34 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required '/home/jtflyjgn/public_html/beta/demo/custom/razorpay/libs/Requests-1.6.1/library/Requests.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/Razorpay.php on line 6
+[18-Aug-2018 13:24:22 Etc/GMT] PHP Warning:  require_once(/home/jtflyjgn/public_html/beta/demo/custom/razorpay/libs/Requests-1.6.1/library/Requests.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/Razorpay.php on line 6
+[18-Aug-2018 13:24:22 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required '/home/jtflyjgn/public_html/beta/demo/custom/razorpay/libs/Requests-1.6.1/library/Requests.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/Razorpay.php on line 6
+[18-Aug-2018 13:27:59 Etc/GMT] PHP Notice:  Undefined index: billno in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 10
+[18-Aug-2018 13:27:59 Etc/GMT] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The payment id provided is null in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Entity.php:31
+Stack trace:
+#0 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Payment.php(12): Razorpay\Api\Entity->fetch(NULL)
+#1 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php(10): Razorpay\Api\Payment->fetch(NULL)
+#2 {main}
+  thrown in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Entity.php on line 31
+[18-Aug-2018 13:28:27 Etc/GMT] PHP Notice:  Undefined index: billno in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 10
+[18-Aug-2018 13:28:27 Etc/GMT] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The payment id provided is null in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Entity.php:31
+Stack trace:
+#0 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Payment.php(12): Razorpay\Api\Entity->fetch(NULL)
+#1 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php(10): Razorpay\Api\Payment->fetch(NULL)
+#2 {main}
+  thrown in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Entity.php on line 31
+[20-Aug-2018 11:48:01 Etc/GMT] PHP Notice:  Undefined index: billno in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 10
+[20-Aug-2018 11:48:01 Etc/GMT] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The payment id provided is null in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Entity.php:31
+Stack trace:
+#0 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Payment.php(12): Razorpay\Api\Entity->fetch(NULL)
+#1 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php(10): Razorpay\Api\Payment->fetch(NULL)
+#2 {main}
+  thrown in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Entity.php on line 31
+[20-Aug-2018 11:58:20 Etc/GMT] PHP Notice:  Undefined index: billno in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 10
+[20-Aug-2018 11:58:20 Etc/GMT] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The payment id provided is null in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Entity.php:31
+Stack trace:
+#0 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Payment.php(12): Razorpay\Api\Entity->fetch(NULL)
+#1 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php(10): Razorpay\Api\Payment->fetch(NULL)
+#2 {main}
+  thrown in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Entity.php on line 31
+[20-Aug-2018 12:04:03 Etc/GMT] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The api secret provided is invalid in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Request.php:123
+Stack trace:
+#0 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Request.php(90): Razorpay\Api\Request->processError(Array, 401, Object(Requests_Response))
+#1 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Entity.php(79): Razorpay\Api\Request->request('GET', 'https://api.raz...', NULL)
+#3 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Entity.php(36): Razorpay\Api\Entity->request('GET', 'payments/pay_An...')
+#4 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Payment.php(12): Razorpay\Api\Entity->fetch('pay_AnkCaSLbmPe...')
+#5 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php(10): Razorpay\Api\Payment->fetch('pay_AnkCaSLbmPe...')
+#6 {main}
+  thrown in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Request.php on line 123
+[20-Aug-2018 12:05:43 Etc/GMT] PHP Notice:  Undefined variable: id in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 11
+[20-Aug-2018 12:05:43 Etc/GMT] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The payment id provided is null in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Entity.php:31
+Stack trace:
+#0 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Payment.php(12): Razorpay\Api\Entity->fetch(NULL)
+#1 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php(11): Razorpay\Api\Payment->fetch(NULL)
+#2 {main}
+  thrown in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Entity.php on line 31
+[20-Aug-2018 12:06:36 Etc/GMT] PHP Notice:  Undefined variable: amount in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 13
+[20-Aug-2018 12:06:36 Etc/GMT] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The amount field is required. in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Request.php:120
+Stack trace:
+#0 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Entity.php(79): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Payment.php(39): Razorpay\Api\Entity->request('POST', 'payments/pay_An...', Array)
+#4 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php(13): Razorpay\Api\Payment->capture(Array)
+#5 {main}
+  thrown in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Request.php on line 120
+[20-Aug-2018 12:07:37 Etc/GMT] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The amount field is required. in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Request.php:120
+Stack trace:
+#0 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Entity.php(79): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Payment.php(39): Razorpay\Api\Entity->request('POST', 'payments/pay_An...', Array)
+#4 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php(13): Razorpay\Api\Payment->capture(Array)
+#5 {main}
+  thrown in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Request.php on line 120
+[20-Aug-2018 12:08:39 Etc/GMT] PHP Notice:  Undefined index: razorpay_payment_id in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 10
+[20-Aug-2018 12:08:39 Etc/GMT] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The payment id provided is null in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Entity.php:31
+Stack trace:
+#0 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Payment.php(12): Razorpay\Api\Entity->fetch(NULL)
+#1 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php(12): Razorpay\Api\Payment->fetch(NULL)
+#2 {main}
+  thrown in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Entity.php on line 31
+[20-Aug-2018 12:09:39 Etc/GMT] PHP Notice:  Undefined variable: amount in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 13
+[20-Aug-2018 12:09:39 Etc/GMT] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The amount field is required. in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Request.php:120
+Stack trace:
+#0 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Entity.php(79): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Payment.php(39): Razorpay\Api\Entity->request('POST', 'payments/pay_An...', Array)
+#4 /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php(13): Razorpay\Api\Payment->capture(Array)
+#5 {main}
+  thrown in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/src/Request.php on line 120
+[20-Aug-2018 12:10:11 Etc/GMT] PHP Notice:  Undefined variable: amountpaid in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 18
+[20-Aug-2018 12:10:11 Etc/GMT] PHP Notice:  Undefined variable: currency in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 19
+[20-Aug-2018 12:15:02 Etc/GMT] PHP Notice:  Undefined index: felix in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 11
+[20-Aug-2018 12:18:41 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 12
+[20-Aug-2018 12:20:07 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 12
+[20-Aug-2018 12:23:45 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 14
+[20-Aug-2018 12:23:45 Etc/GMT] PHP Notice:  Undefined index: felix in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 18
+[20-Aug-2018 12:25:23 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 14
+[20-Aug-2018 12:25:23 Etc/GMT] PHP Notice:  Undefined index: felix in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 18
+[23-Aug-2018 08:20:30 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 14
+[23-Aug-2018 09:55:23 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 14
+[23-Aug-2018 10:14:37 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/beta/demo/custom/razorpay/pay.php on line 14
+[29-Aug-2018 11:18:27 Etc/GMT] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:18:27 Etc/GMT] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:18:27 Etc/GMT] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:18:27 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[29-Aug-2018 11:18:27 Etc/GMT] PHP Notice:  Undefined variable: conn in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 31
+[29-Aug-2018 11:18:27 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 31
+[29-Aug-2018 11:18:27 Etc/GMT] PHP Notice:  Undefined variable: conn in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 33
+[29-Aug-2018 11:18:27 Etc/GMT] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 33
+[29-Aug-2018 11:21:20 Etc/GMT] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:21:20 Etc/GMT] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:21:20 Etc/GMT] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:21:20 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[29-Aug-2018 11:21:20 Etc/GMT] PHP Notice:  Undefined variable: conn in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 31
+[29-Aug-2018 11:21:20 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 31
+[29-Aug-2018 11:21:20 Etc/GMT] PHP Notice:  Undefined variable: conn in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 33
+[29-Aug-2018 11:21:20 Etc/GMT] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 33
+[29-Aug-2018 11:25:32 Etc/GMT] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:25:32 Etc/GMT] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:25:32 Etc/GMT] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:25:32 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[29-Aug-2018 11:25:32 Etc/GMT] PHP Notice:  Undefined variable: conn in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 31
+[29-Aug-2018 11:25:32 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 31
+[29-Aug-2018 11:25:32 Etc/GMT] PHP Notice:  Undefined variable: conn in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 33
+[29-Aug-2018 11:25:32 Etc/GMT] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 33
+[29-Aug-2018 11:37:26 Etc/GMT] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:37:26 Etc/GMT] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:37:26 Etc/GMT] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:37:26 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[29-Aug-2018 11:37:26 Etc/GMT] PHP Notice:  Undefined variable: conn in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 31
+[29-Aug-2018 11:37:26 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 31
+[29-Aug-2018 11:37:26 Etc/GMT] PHP Notice:  Undefined variable: conn in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 33
+[29-Aug-2018 11:37:26 Etc/GMT] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 33
+[29-Aug-2018 11:42:46 Etc/GMT] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:42:46 Etc/GMT] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:42:46 Etc/GMT] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:42:46 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[29-Aug-2018 11:42:46 Etc/GMT] PHP Notice:  Undefined variable: conn in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 31
+[29-Aug-2018 11:42:46 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 31
+[29-Aug-2018 11:42:46 Etc/GMT] PHP Notice:  Undefined variable: conn in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 33
+[29-Aug-2018 11:42:46 Etc/GMT] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 33
+[29-Aug-2018 11:49:04 Etc/GMT] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:49:04 Etc/GMT] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:49:04 Etc/GMT] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:49:04 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[29-Aug-2018 11:49:04 Etc/GMT] PHP Notice:  Undefined variable: conn in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 31
+[29-Aug-2018 11:49:04 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 31
+[29-Aug-2018 11:49:04 Etc/GMT] PHP Notice:  Undefined variable: conn in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 33
+[29-Aug-2018 11:49:04 Etc/GMT] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 33
+[29-Aug-2018 11:51:18 Etc/GMT] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:51:18 Etc/GMT] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:51:18 Etc/GMT] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 5
+[29-Aug-2018 11:51:18 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[29-Aug-2018 11:51:18 Etc/GMT] PHP Notice:  Undefined variable: conn in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 33
+[29-Aug-2018 11:51:18 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 33
+[29-Aug-2018 11:51:18 Etc/GMT] PHP Notice:  Undefined variable: conn in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 35
+[29-Aug-2018 11:51:18 Etc/GMT] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 35
+[29-Aug-2018 11:52:29 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[29-Aug-2018 11:52:46 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[29-Aug-2018 11:55:35 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[30-Aug-2018 05:24:44 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[30-Aug-2018 12:09:54 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[30-Aug-2018 13:52:05 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[30-Aug-2018 14:04:58 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[30-Aug-2018 16:40:46 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[31-Aug-2018 10:00:20 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[31-Aug-2018 10:03:26 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[31-Aug-2018 10:16:20 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[31-Aug-2018 10:18:32 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[31-Aug-2018 10:19:55 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[31-Aug-2018 10:28:35 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[31-Aug-2018 12:05:14 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[31-Aug-2018 12:10:39 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[31-Aug-2018 12:12:45 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[31-Aug-2018 12:48:42 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[31-Aug-2018 12:49:16 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[31-Aug-2018 15:47:07 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[01-Sep-2018 08:31:22 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
+[03-Sep-2018 05:29:33 Etc/GMT] PHP Notice:  Undefined index: error_code in /home/jtflyjgn/public_html/custom/razorpay/pay.php on line 16
